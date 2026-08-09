@@ -80,7 +80,6 @@ CREATE TABLE etl.Ejecucion
     filas_extraidas INT NOT NULL DEFAULT 0,
     filas_validas INT NOT NULL DEFAULT 0,
     filas_rechazadas INT NOT NULL DEFAULT 0,
-    filas_warning INT NOT NULL DEFAULT 0,
 
     estado NVARCHAR(20) NOT NULL,
 
